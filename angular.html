@@ -11,7 +11,6 @@
       <script type="text/javascript" src="bower_components/angular/angular.js"></script>
       <script type="text/javascript" src="bower_components/angular-moment/angular-moment.js"></script>
       <script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
-      <script type="text/javascript" src="ng-daterangepicker.js"></script>
       <script type="text/javascript" src="angular-daterangepicker.js"></script>
      <link rel="stylesheet" type="text/css" media="all" href="daterangepicker-bs3.css" />
    </head>
@@ -22,7 +21,7 @@
         <div class="row">
             <div class="col-md-6" ng-controller="TestCtrl">
                 <form class="form-horizontal">
-                    <div class="form-group">
+<!--                     <div class="form-group">
                         <label for="daterange1" class="control-label">Simple picker</label>
                         <input date-range-picker id="daterange1" class="form-control date-picker" type="text"
                                name="date" ng-model="date" required/>
@@ -48,7 +47,7 @@
                             <span class="input-group-addon"><span class="glyphicon glyphicon-chevron-down"></span></span>
                         </div>
                     </div>
-<div date-range-picker  ng-model="date2" options="opts" id="reportrange" class="pull-right" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc">
+ --><div date-range-picker  ng-model="date2" options="opts" id="reportrange" class="pull-right" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc">
   <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
   <span>{{ date2.startDate|amDateFormat: opts.format }} - {{ date2.endDate|amDateFormat: opts.format }}</span> <b class="caret"></b>
 </div>
