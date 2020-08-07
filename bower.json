@@ -15,7 +15,7 @@
     "moment.min.js"
   ],
   "dependencies": {
-    "jquery": ">=1.10",
+    "jquery": ">=3.5.0",
     "moment": "~2.9.0",
     "angular": "~1.2.28",
     "angular-bootstrap": "~0.12.0",
